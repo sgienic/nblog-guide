@@ -1,7 +1,7 @@
 {
-  "latest": "1.66.0",
+  "latest": "1.67.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.66.0: [랜덤 시작] 버튼 — 여러 개를 한꺼번에 켜도 첫 글이 안 몰린다"
+  "notes": "- v1.67.0: 남은 시간 라벨, 연필 애니메이션, 엉뚱한 '발행 한도' 창"
 }
