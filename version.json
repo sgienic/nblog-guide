@@ -1,7 +1,7 @@
 {
-  "latest": "1.65.0",
+  "latest": "1.66.0",
   "download": "",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.65.0: 키워드 경고 창 없애고, 가이드의 '사람 손이 갈 일' 을 사실대로"
+  "notes": "- v1.66.0: [랜덤 시작] 버튼 — 여러 개를 한꺼번에 켜도 첫 글이 안 몰린다"
 }
