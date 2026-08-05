@@ -1,7 +1,7 @@
 {
-  "latest": "1.67.0",
+  "latest": "1.68.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.67.0: 남은 시간 라벨, 연필 애니메이션, 엉뚱한 '발행 한도' 창"
+  "notes": "- v1.68.0: 가이드 보강 — 신규 아이디·플레이스·대행 비교·화면 캡처"
 }
