@@ -1,7 +1,7 @@
 {
-  "latest": "1.54.0",
+  "latest": "1.55.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.54.0: 네이버가 싫어하는 것 규칙을 두 경로 모두에 적용\n- v1.53.0: 지도를 글 아래쪽으로, 태그 3~5개로"
+  "notes": "- v1.55.0: 같은 로그가 밤새 쌓이던 것"
 }
