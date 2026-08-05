@@ -1,7 +1,7 @@
 {
-  "latest": "1.75.0",
+  "latest": "1.76.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- 정보성 글이 자료 없이 지어내던 문제\n- 퀵가이드: 설정은 손대지 말라고 분명히 적기"
+  "notes": "- 정보성 글이 안 되면 키워드를 쓰던 문제\n- 설명서 버전 표기 v1.75.0"
 }
