@@ -1,7 +1,7 @@
 {
-  "latest": "1.72.0",
-  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
+  "latest": "1.73.0",
+  "download": "",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.72.0: 로그인했는데 또 로그인하라던 문제 + 세션 안내 구체화"
+  "notes": "- v1.73.0: 주요 지역이 글에 반영되지 않던 문제"
 }
