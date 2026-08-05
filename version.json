@@ -1,7 +1,7 @@
 {
-  "latest": "1.68.0",
-  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
+  "latest": "1.69.0",
+  "download": "",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.68.0: 가이드 보강 — 신규 아이디·플레이스·대행 비교·화면 캡처"
+  "notes": "- v1.69.0: 가이드 — 시작 화면 안내, 사용자 유형 확대, 최소 사양"
 }
