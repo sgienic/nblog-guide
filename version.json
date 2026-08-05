@@ -1,7 +1,7 @@
 {
-  "latest": "1.69.0",
+  "latest": "1.70.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.69.0: 가이드 — 시작 화면 안내, 사용자 유형 확대, 최소 사양"
+  "notes": "- v1.70.0: 가이드 — 화면 캡처 3장 추가, '내려받기' -> '다운로드'"
 }
