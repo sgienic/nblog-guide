@@ -1,7 +1,7 @@
 {
-  "latest": "1.71.0",
+  "latest": "1.72.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.71.0: 보험·대부 업종 추가, 출처 표기, 자동 재개 확인창 제거, 빠른 시작"
+  "notes": "- v1.72.0: 로그인했는데 또 로그인하라던 문제 + 세션 안내 구체화"
 }
