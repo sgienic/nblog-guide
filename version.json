@@ -1,6 +1,6 @@
 {
   "latest": "1.61.0",
-  "download": "",
+  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
   "notes": "- v1.61.0: 업데이트 재시작 뒤 [업데이트 확인] 이 늘 '최신입니다' 만 하던 문제"
