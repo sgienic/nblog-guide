@@ -1,7 +1,7 @@
 {
-  "latest": "1.64.0",
-  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
+  "latest": "1.65.0",
+  "download": "",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.64.0: 글 쓰다 멈추면 업데이트가 영영 막히던 것"
+  "notes": "- v1.65.0: 키워드 경고 창 없애고, 가이드의 '사람 손이 갈 일' 을 사실대로"
 }
