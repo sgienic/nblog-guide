@@ -1,7 +1,7 @@
 {
-  "latest": "1.59.0",
+  "latest": "1.60.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.59.0: 업데이트 재시작이 옛 버전에 기대지 않고 대기 시간을 세운다"
+  "notes": "- v1.60.0: 제목·업데이트·폰트·썸네일만"
 }
