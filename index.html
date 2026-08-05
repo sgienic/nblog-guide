@@ -192,6 +192,31 @@
              font-variant-numeric:tabular-nums; letter-spacing:-0.04em}
   .cost .unit{font-size:15px; color:var(--ink-dim)}
 
+  /* 비용 마무리 카드 — 섹션 끝에서 '얼마 안 든다'를 한눈에 남긴다.
+     숫자를 크게 박는 대신 견줄 것(커피 한 잔)을 크게 둔다. 액수는 사람마다
+     달라서 크게 박으면 약속처럼 보이고, 견줌은 감이 바로 온다. */
+  .pricecard{
+    position:relative; overflow:hidden; margin:22px 0 0;
+    padding:26px 28px; border-radius:var(--radius-lg);
+    background:
+      radial-gradient(120% 140% at 100% 0%, var(--brand-wash) 0%, transparent 62%),
+      var(--surface);
+    border:1px solid var(--line); box-shadow:var(--shadow);
+  }
+  .pricecard::before{
+    content:""; position:absolute; inset:0 auto 0 0; width:4px;
+    background:linear-gradient(180deg, var(--brand), var(--brand-deep));
+  }
+  /* 자간은 좁게 — 넓은 자간은 알파벳 라벨에나 어울리고 한글은 흩어져 보인다 */
+  .pc-lede{font-size:12px; font-weight:700; letter-spacing:.01em;
+           color:var(--ink-faint); margin-bottom:6px}
+  .pc-big{font-size:clamp(26px,5vw,34px); font-weight:800; letter-spacing:-0.04em;
+          color:var(--brand-deep); line-height:1.2; text-wrap:balance}
+  .pc-big span{font-size:.62em; font-weight:700; color:var(--ink-dim);
+               letter-spacing:-0.02em; margin-left:.35em}
+  .pc-note{font-size:14px; color:var(--ink-dim); margin:12px 0 0; max-width:52ch}
+  .pc-note strong{color:var(--ink)}
+
   /* 버튼 뱃지 */
   .btn{display:inline-block; background:var(--code-bg); border:1px solid var(--line);
        border-radius:6px; padding:1px 8px; font-size:13.5px; font-weight:700; white-space:nowrap}
@@ -240,10 +265,10 @@
     <div class="facts">
       <div><div class="k">사람 손이 갈 일</div><div class="v">키워드 넣기</div></div>
       <div><div class="k">글감 분야</div><div class="v">33가지</div></div>
-      <div><div class="k">계정 보호</div><div class="v">19가지 장치</div></div>
+      <div><div class="k">계정 보호</div><div class="v">20가지 장치</div></div>
     </div>
     <p style="font-size:13px;color:var(--ink-faint);margin:12px 0 0">
-      글을 만드는 데 AI를 쓰기 때문에 사용료가 듭니다. 글 한 편에 대략 1,000~2,000원 —
+      GPT API 사용 시 비용이 발생합니다 —
       <a href="#cost" style="color:inherit">자세히</a>
     </p>
   </header>
@@ -335,7 +360,7 @@
           <tr><td>본인 키를 넣어둔 경우</td><td>체험을 쓰지 않고 본인 키로 씁니다</td></tr>
         </table></div>
         <p style="margin-top:10px">체험이 끝나면 <strong>본인 GPT 키가 필요합니다.</strong>
-        글 한 편에 1,000~2,000원 정도 드는 사용료도 그때부터 본인 키에서 나갑니다
+        GPT API 사용료도 그때부터 본인 키에서 나갑니다
         (→ <a href="#cost">글 한 편 비용</a>).</p>
       </div>
 
@@ -502,6 +527,8 @@
       <div class="tw"><table>
         <tr><th>장치</th><th>하는 일</th></tr>
         <tr><td>발행 시간대</td><td>정한 시간(기본 8~23시) 안에서만 올립니다. 새벽 3시 발행은 사람이 하지 않습니다</td></tr>
+        <tr><td>시작 시각 흩기</td><td>8시 시작으로 정해도 8시 정각에 올리지 않습니다. 계정마다 0~45분씩 다르게 늦춰
+          첫 글을 올리고, 그 폭은 날마다 바뀝니다. <b>계정을 여러 개 돌려도 같은 분에 몰리지 않습니다</b></td></tr>
         <tr><td>하루 발행 수 변동</td><td>매일 설정값의 <span class="btn">70~100%</span>만 올립니다. 10건으로 두면 어떤 날은 7건, 어떤 날은 9건입니다</td></tr>
         <tr><td>주말 감소</td><td>토·일요일은 더 적게 올립니다. 사람은 주말에 덜 씁니다</td></tr>
         <tr><td>발행 간격</td><td>정한 범위(기본 120~240분) 안에서 <strong>매번 다시 뽑습니다</strong>. 정확히 2시간마다 올라가지 않습니다</td></tr>
@@ -559,7 +586,7 @@
 
     <section id="cost">
       <h2><span class="num">10</span>글 한 편 비용</h2>
-      <p class="lede">글 한 편에 대략 <strong>1,000~2,000원</strong> 정도가 듭니다.</p>
+      <p class="lede">GPT API 사용 시 비용이 발생합니다.</p>
       <p>본문을 쓰고 이미지를 만드는 데 드는 <strong>OpenAI 사용료</strong>입니다.
       프로그램 요금과 별개로, 사장님이 넣은 API 키에서 직접 빠져나갑니다.</p>
       <div class="tw"><table>
@@ -577,7 +604,7 @@
         <tr><th>직접 쓸 때</th><th>이 프로그램</th></tr>
         <tr><td>주제 정하고 자료 찾기 — 30분~1시간</td><td rowspan="4" style="vertical-align:middle">
           <strong>키워드만 넣어두면 끝</strong><br>
-          <span style="color:var(--ink-dim)">글 한 편에 1,000~2,000원</span></td></tr>
+          <span style="color:var(--ink-dim)">커피 한 잔이 안 되는 사용료</span></td></tr>
         <tr><td>본문 쓰기 — 1시간 이상</td></tr>
         <tr><td>이미지 만들거나 찾기 — 30분</td></tr>
         <tr><td>올리고 태그 달기 — 15분</td></tr>
@@ -610,8 +637,8 @@
       </table></div>
       <div class="note">
         <div class="t">한 달을 놓고 보면</div>
-        <p>하루 한 편씩 서른 편을 올린다고 하면 AI 사용료는 <strong>3~6만 원</strong> 선입니다.
-        같은 서른 편을 대행에 맡기면 백만 원이 넘고, 직접 쓰면 60시간이 넘게 듭니다.</p>
+        <p>같은 서른 편을 대행에 맡기면 백만 원이 넘고, 직접 쓰면 60시간이 넘게 듭니다.
+        블로그를 굴리는 데 드는 관리비로는 <strong>가장 적은 축</strong>입니다.</p>
       </div>
 
       <h3>지역 업체라면 하나 더</h3>
@@ -626,6 +653,14 @@
         <p>글을 올린다고 바로 상위에 뜨거나 문의가 오는 것은 아닙니다.
         검색 순위는 네이버가 정하고 기준도 공개되지 않습니다.
         이 프로그램이 해주는 것은 <strong>꾸준히 올릴 수 있게 만드는 것</strong>까지입니다.</p>
+      </div>
+
+      <div class="pricecard">
+        <div class="pc-lede">글 한 편에 드는 돈</div>
+        <div class="pc-big">커피 한 잔<span>보다 적습니다</span></div>
+        <p class="pc-note">글 한 편당 <strong>약 1천 원 내외</strong>의 비용이 발생할 수 있습니다.
+        블로그를 계속 굴리는 데 드는 관리비 중 가장 적은 축이고,
+        사람 손은 아예 들어가지 않습니다.</p>
       </div>
     </section>
 
@@ -693,6 +728,10 @@
         <tr><td>GPT 한도·잔액 문제입니다</td><td><b>프로그램을 끄지 마세요.</b> 10분 → 20분 → 40분 → 1시간 간격으로 알아서 다시 확인합니다.
           OpenAI 결제나 한도를 올려 두시면 그때부터 이어서 씁니다</td></tr>
         <tr><td>GPT 를 너무 빨리 불렀습니다</td><td>잔액과는 상관없습니다. 2분 쉬었다 알아서 이어집니다</td></tr>
+        <tr><td>업데이트하면 발행이 멈추나요</td><td>아닙니다. 발행 중에 업데이트하면 새 버전이 켜진 뒤
+          <b>자동으로 이어서</b> 합니다. [포스팅 시작] 을 다시 누르지 않으셔도 됩니다</td></tr>
+        <tr><td>바로 발행이 눌러도 안 된다</td><td>v1.46.0 에서 고쳤습니다. 발행 시간대 밖이면 눌러도 기다리기만 했습니다.
+          지금은 시간대와 상관없이 바로 씁니다</td></tr>
         <tr><td>켜는 데 시간이 걸린다</td><td>처음 켤 때는 준비하느라 20초쯤 걸립니다.
           시작 화면이 뜨고 검은 창에 진행이 표시되니 기다려 주세요</td></tr>
         <tr><td>검은 창이 멈춘 것 같다</td><td>창을 클릭했다면 <code>ESC</code> 를 누르세요. 클릭하면 윈도우가 일시정지시킵니다</td></tr>
@@ -830,13 +869,14 @@
         <tr><th>이래서 막힙니다</th><th>이 프로그램은</th></tr>
         <tr><td>하루에 몰아서 수십 편</td><td>시간대·간격·발행량을 나눠 하루 다섯 편 안팎으로 흩습니다</td></tr>
         <tr><td>새벽 3시에도 꼬박꼬박 발행</td><td>정한 시간대(기본 8~23시) 안에서만 올립니다</td></tr>
+        <tr><td>여러 계정이 8시 정각에 동시 발행</td><td>계정마다 0~45분씩 다르게 시작합니다. 날마다 그 폭도 바뀝니다</td></tr>
         <tr><td>매일 정확히 같은 개수</td><td>매일 70~100% 사이로 다르게, 주말엔 더 적게</td></tr>
         <tr><td>2,000자가 한순간에 붙여넣기</td><td>한 글자씩 치고, 오타도 냈다 지웁니다</td></tr>
         <tr><td>글만 올리고 바로 창 닫기</td><td>쓰기 전후로 둘러보고, 공감도 남깁니다</td></tr>
         <tr><td>광고 글만 계속</td><td>정보성 글을 섞습니다</td></tr>
         <tr><td>한 아이피에 여러 계정</td><td>계정마다 아이피를 나눠 쓰도록 안내합니다</td></tr>
       </table></div>
-      <p>전부 합해 <strong>19가지 장치</strong>가 들어 있습니다
+      <p>전부 합해 <strong>20가지 장치</strong>가 들어 있습니다
       (→ <a href="#safe">계정 보호</a>에 하나하나 적어두었습니다).
       빨리 많이 올리는 것보다 <strong>오래 안 막히는 것</strong>을 먼저 두고 만들었습니다.</p>
 
