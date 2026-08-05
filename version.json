@@ -1,0 +1,7 @@
+{
+  "latest": "1.50.0",
+  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
+  "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
+  "force": false,
+  "notes": "- v1.50.0: 업종별 글 성격, 소제목 자연스럽게, 노란 경고 띠 제거"
+}
