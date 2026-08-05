@@ -1,7 +1,7 @@
 {
-  "latest": "1.51.0",
+  "latest": "1.52.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.51.0: 새 버전·둘러볼 곳을 깃허브에서 먼저 읽는다\n- 설명서 버전 표기 v1.50.0 자동 갱신"
+  "notes": "- v1.52.0: 경고 띠 제거, 지난 버전 exe 자동 정리\n- v1.52.0: 업데이트 재시작이 로그인도, 발행 대기도 끊지 않는다\n- fix: 깃허브 version.json 에 빈 다운로드 주소가 올라가던 것"
 }
