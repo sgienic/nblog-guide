@@ -229,6 +229,25 @@
   .shots{display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; margin-bottom:20px}
   .shots figure{flex:1 1 240px; margin:0}
 
+  /* 빠른 시작 — 처음 여는 사람이 여기만 보고도 돌릴 수 있어야 한다.
+     설명서가 길어서 어디부터 봐야 할지 모른다는 말을 들었다. */
+  .quick{display:grid; gap:12px; margin:0 0 20px}
+  .qstep{display:flex; gap:14px; align-items:flex-start;
+         background:var(--surface); border:1px solid var(--line);
+         border-radius:var(--radius); padding:16px 18px; box-shadow:var(--shadow)}
+  .qnum{flex:none; width:30px; height:30px; border-radius:50%;
+        background:var(--brand-wash); color:var(--brand-deep);
+        border:1px solid color-mix(in srgb,var(--brand) 35%,transparent);
+        display:flex; align-items:center; justify-content:center;
+        font-weight:800; font-size:15px; font-variant-numeric:tabular-nums}
+  .qbody{flex:1 1 auto; min-width:0}
+  .qt{font-weight:800; font-size:15.5px; letter-spacing:-0.02em; margin-bottom:4px}
+  .qonce{font-size:11.5px; font-weight:700; color:var(--brand-deep);
+         background:var(--brand-wash); border-radius:100px; padding:2px 8px;
+         margin-left:6px; vertical-align:middle}
+  .qbody p{font-size:14.5px; margin:0; color:var(--ink-dim)}
+  .qbody p b{color:var(--ink)}
+
   /* 프로그램 화면 캡처 — 글로만 설명하면 어디를 말하는지 못 찾는다 */
   figure.shot{margin:18px 0; border:1px solid var(--line); border-radius:var(--radius);
               overflow:hidden; background:var(--bg2); box-shadow:var(--shadow)}
@@ -266,7 +285,7 @@
   <header>
     <span class="eyebrow"><span class="dot"></span>사용 설명서</span>
     <h1>네이버 블로그 자동 포스팅</h1>
-    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v1.70.0 기준</span></p>
+    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v1.71.0 기준</span></p>
     <p class="sub" style="margin-top:12px">네이버에 한 번 로그인하고 키워드만 넣어두면, AI가 제목·본문·이미지를 만들어 정해진 간격으로 알아서 올립니다. 처음 쓰시는 분은 위에서부터 순서대로 따라오시면 됩니다.</p>
     <p class="sub" style="font-size:14.5px;margin-top:10px">프로그램이 자주 개선되기 때문에 <strong>버전에 따라 화면과 기능이 조금씩 다를 수 있습니다.</strong> 설명서와 다른 부분이 보이면 최신 버전에서 바뀐 것이니, 아래 문의 메일로 알려주세요.</p>
     <div class="facts">
@@ -288,6 +307,7 @@
   <nav class="toc">
     <div class="track"><span class="thumb"></span>
     <div class="grp">시작</div>
+    <a href="#quick">빠른 시작 (3단계)</a>
     <a href="#install">설치와 로그인</a>
     <a href="#naver">네이버 연결</a>
     <a href="#api">API 키 넣기</a>
@@ -311,6 +331,64 @@
   </nav>
 
   <main>
+    <section id="quick">
+      <h2><span class="num">00</span>빠른 시작 <span style="font-size:13px;font-weight:600;color:var(--ink-faint)">3단계</span></h2>
+      <p class="lede">아래 세 가지만 하시면 오늘부터 글이 올라갑니다.
+      나머지는 다 기본값으로 두셔도 됩니다.</p>
+
+      <div class="quick">
+        <div class="qstep">
+          <div class="qnum">1</div>
+          <div class="qbody">
+            <div class="qt">네이버 로그인 <span class="qonce">처음 한 번만</span></div>
+            <p>① 로그인에서 네이버 아이디를 넣고 <span class="btn">로그인 세션 만들기</span>.
+            브라우저가 열리면 직접 로그인하고 창을 닫으면 끝입니다.</p>
+          </div>
+        </div>
+        <div class="qstep">
+          <div class="qnum">2</div>
+          <div class="qbody">
+            <div class="qt">블로그 정보 적기 <span class="qonce">처음 한 번만</span></div>
+            <p>①-3에서 <b>무슨 블로그인지</b>와 <b>취급 품목</b>을 적습니다.
+            이 두 칸이 글의 방향을 정합니다. 나머지 칸은 비워두셔도 됩니다.</p>
+          </div>
+        </div>
+        <div class="qstep">
+          <div class="qnum">3</div>
+          <div class="qbody">
+            <div class="qt">포스팅 시작</div>
+            <p><span class="btn">▶ 포스팅 시작</span> 을 누르면 끝입니다.
+            정보성 글 섞기·계정 보호는 <b>기본값이 이미 안전하게</b> 맞춰져 있습니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="note">
+        <div class="t">API 키는 언제 넣나요</div>
+        <p>가입하면 <strong>글 10편까지는 키 없이</strong> 써보실 수 있습니다.
+        마음에 들면 그때 ①-2에 본인 OpenAI 키를 넣으시면 됩니다.
+        (→ <a href="#api">API 키 넣기</a>)</p>
+      </div>
+
+      <h3>시작 버튼이 두 개인 이유</h3>
+      <div class="tw"><table>
+        <tr><th>버튼</th><th>언제 쓰나</th></tr>
+        <tr><td><span class="btn">▶ 포스팅 시작</span></td>
+            <td><b>바로 시작합니다.</b> 첫 글이 곧 올라갑니다.<br>
+            <span style="color:var(--ink-dim)">계정 하나만 쓰시거나, 지금 바로 올리고 싶을 때</span></td></tr>
+        <tr><td><span class="btn">🎲 랜덤 시작</span></td>
+            <td><b>0~60분 중 아무 때나</b> 첫 글을 올립니다.<br>
+            <span style="color:var(--ink-dim)">계정을 여러 개 한꺼번에 켤 때 — 첫 글이 같은 시각에 몰리지 않습니다</span></td></tr>
+      </table></div>
+      <p>계정을 서너 개 돌리신다면 <strong>전부 [랜덤 시작]</strong> 으로 누르세요.
+      같은 아이피에서 여러 블로그가 동시에 글을 올리는 모습을 피할 수 있습니다.
+      한 개만 쓰신다면 어느 쪽이든 상관없습니다.</p>
+
+      <p style="color:var(--ink-dim);font-size:14px">
+        아래부터는 자세한 설명입니다. 지금 다 읽지 않으셔도 되고,
+        필요할 때 왼쪽 차례에서 찾아보시면 됩니다.</p>
+    </section>
+
     <section id="install">
       <h2><span class="num">01</span>설치와 로그인</h2>
       <p class="lede">받은 zip 파일 하나로 끝납니다. 따로 설치 프로그램은 없습니다.</p>
@@ -568,7 +646,10 @@
       <figure class="shot"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCABgAekDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAIEAwUGAQf/xABDEAACAQMBBAYEDAUEAQUAAAABAgMABBEFEhMhkgYxQVFS4RRU0dIiMjNTYWNxcoGRk7EVI2KywQcWNKFCJDVDc/H/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAnEQEAAQMDAgYDAQAAAAAAAAAAAREhMQJB8GHRIjJRgZHBEqHh8f/aAAwDAQACEQMRAD8A+yVB/jJ97/BqdQf4yfe/waDDqf8A7ddf/S/7GttVCRFljaOQbSOCrDPWDWfft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBYpVfft3LTft3LQWKVX37dy037dy0FilV9+3ctN+3ctBQ1iyF9byQ5wwbaQ/TVHQNLeyDzXAxM/wQoOcCtwTkk99KBUE+M/3v8AAqdQT4z/AHv8CgnSlKBUWUnGCAQc8RUqUEMP4l5fOmH8S8vnXpLFgiDLHszipbqfwxc59lBDD+JeXzph/EvL51PdT+GLnPspup/DFzn2UEMP4l5fOmH8S8vnU91P4Yuc+ym6n8MXOfZQQw/iXl86YfxLy+dT3U/hi5z7Kbqfwxc59lBDD+JeXzph/EvL51PdT+GLnPspup/DFzn2UEMP4l5fOmH8S8vnU91P4Yuc+ym6n8MXOfZQQw/iXl86YfxLy+dT3U/hi5z7Kbqfwxc59lBDD+JeXzph/EvL5178JX2JFAOMjByDXrEKpY9QGTQRw/iXl86YfxLy+dTEc7AEIgz2M5z+1N1P4Yuc+yghh/EvL50w/iXl86nup/DFzn2U3U/hi5z7KCGH8S8vnTD+JeXzqe6n8MXOfZTdT+GLnPsoIYfxLy+dMP4l5fOp7qfwxc59lN1P4Yuc+yghh/EvL50w/iXl86nup/DFzn2U3U/hi5z7KCGH8S8vnTD+JeXzqe6n8MfOfZUVJOQRhlOCKDzD+JeXzph/EvL51PrOB1mpbt/6fzoMWH8S8vnTD+JeXzrLu3/p/Om7f+n86DFh/EvL50w/iXl86y7t/wCn86bt/wCn86DFh/EvL50w/iXl86y7t/6fzpu3/p/OgxYfxLy+dMP4l5fOsu7f+n86bt/6fzoMWH8S8vnTD+JeXzqfaQesVFiRgAZYnAHfQeYfxLy+dMP4l5fOp7qfwx859lN1P4Yuc+yghh/EvL50w/iXl86nup/DFzn2U3U/hi5z7KCGH8S8vnTD+JeXzqe6n8MXOfZTdT+GLnPsoIYfxLy+dMP4l5fOp7qfwxc59lN1P4Yuc+yghh/EvL50w/iXl86nup/DHzn2VFSTkEYZTgig8w/iXl86YfxLy+dTpQQw/iXl86YfxLy+dTpQQw/iXl86YfxLy+dTpQQw/iXl869VSM5IJJzwFSpQKUpQKUpQIf8AlL9xv3WrdVIf+Uv3G/dat0Gt6SaxF0f0S71a4ieWG1UO6JjaK5AOM9vH/wDKx9G+kmk9JrAXujXkdxHw21Bw8Z7mXrU8D19fWMisHTnSrnXOiepaXY7HpF1GI0LthQSw4k9w665//Tn/AEx0/obs3sk8l1qzIVeYMyRqD1qqg8R1cWz1AjHVSMzUnEUdR0ovEsNBu7p9Q9A3abSz7yNPhdi5kVlG0eHEHrrm9C16zuddsLaLpm2ob63aUwtc2RBfhiPEcQYnBJ4EH4PVXXalZz3kSpb6ldWDK2TJbLEWYdx3iMMfYM1qrHo3c2UrvF0l1dhJNvpUaO1xIxxnP8nIBx2EU05vzn0asW5z7S1XUNVmnEOg2UjG2lDXMlwpiSRR1xxlh8Jm7GHwR4s8Kw9I9VvpOi1zd6JDfQ3iSxpsG1YSr/MUPhTG+0Apb4Sq47RtVbm0W/kld06UavErMSI0itNlR3DMBOB9JJrPFp99Dp11brrV3PcyowhurmKEmFiMAhURAQDxwamyx5nO9HdU1R4bcX1xfNLJfLGwurdkG7MbHClraDPEccKcYHHjius1C6jsrG4upn2I4Y2dm7gBXN6LomsWuo280w9HjQnet/Hbq93wwRs7uVQq5ODtA5GMDrrpLuyt7zc+lR7wQyCVFLHZ2h1EjqODxGc4IB6wDVmKwkZaaw1ee70fQbkSES3MqRXQZAGDhG21I/8AEh1IIHURWsl1C5HSbaGtaoNHWfcySCC33C3G0AIdrdbWx1qWzwYhdrazjf3OjxG8hubNEic3a3Fx8IgOQjLkDq2uIyeGccTwFSv9Bs7+4M882pI5AGLfU7mFeH9KOF/6pW9evY2pzM/xh6K6jdalp0kl7DKrpczRrK+wBKqyMAVCk8AABxAPD8a3Na/QrO40/S47W7naeSNpMSPK0jFS7FQWbiSFIHHurYUSFa5+Xi+637rWGf5CT7p/as1z8vF91v3WsM/yEn3T+1FX6oa3rWm6BYPfavdx2tsvAu+Tk9wA4k/QBV+tXrdpJO9rOlubkW7lmhWTYL5HDrIB44yCcYz19Rk4WFHo3026P9JbiS20q/WS4QZMLDZYjvHYeHHhxHbiq/TzVZ9NisEttSi05riVlM893FbxjC5wWkhlH2AAfbWDovo88U1u50xNPitriWQJHhUYMHBwoAJbLDiQOAGOsiui12C+uNMkj0t0S7DxsheVo1Oy4JUsoJAIBHUeurqhIy5zQNd1C61m1spblLy3MIL3luYmglcQoSFIwx+ESc7IGD+FVk1LWlv2CXOry3f8QljFlPYtDaboSMEO+W0c42dg52+3O0K3lha6m2rC7v8ASNNgySzzwanLK4OyF4IYVB4ADrHfVDV9D1i41i7uYo/SbaUoYR/uC8st2AoBGxEhXrBOc9tJzUjFG96O3NxeaHY3N4QbiWFWkK9W1244D9hVay1hZ+lGoaZvSVhgjaMFQAW47wA9pAaLPdtDvq5ottc2uj2ltfSby5jhVZX3rSZbHH4bYZvtPGvI9G0+OG1ijtgotJN5CwZttXOcsWzklsnayTtZOc5q7mznNU1DUp+jummw1C8TWbqMmGG1jhO/IxtF9tGCqvaeHWBxJAqxpOszyarplrbz32o209rO00s0cMckUiyKP5gwmCuSuFXPeO2tpa6Mp0K2029kmBiRQzWtzJCcjuZCrYrHp+hnTdYFxa3V41m1uySRXN/PcZk2lKsBIzAcAw4Y66mnN+Wk1Yty7dVTPy833h/aKuVTPy833h/aKCSfHX7f8VnrAnx1+3/FZ6BXF6t08/h2pXFn/Dd5uXKbfpGM/hs12lfPtb6EanqGrXV3DPZrHNIWUO7AgfT8Gpeq7Or6N6z/ABzTjeej7jEhTY29rqxxzgd9a/UdSMl7KtrrsFmsZwVluLfDEdijZZh9JY5B/wDE1b6I6RcaLpRtLp4nk3rPmIkjBA7wO6p6pp9zdXQkCLPEACiG9lt92w7fgA5+09VWc2SMI296lzo0sq6lIpgyZJ1kgkbhx61BXH4A15plzcNZabLJdyzNcyASiREBU7DZXAUYww+3hWwhtNq0givW3zxkMSWOCR1Z8WPp7QD11GWxT0iGWBVTE+9lGT8I7DLnHVniKpsu0pSoMD/Hb7f8VEfLw/eP9pqT/Hb7f8VEfLw/eP8AaaC5SlKD5fd9OtX6Daxe2fThHvLGbbm02/tYQu0BxERAwM9Q48QeskHI6P8A0+uek+p293q3SbYtobxlax08RgNbR8fjNjJJ4dfd2ZwNG3+nt50q1q+1Pp7OssY24dPsrWUhLeM9T58XUft6+wDef6faR0h0C3u9J1q7ivdPtmC6dc5O9aPwsO4cAPxHVimjF80574/e5qzbFee3MMPTzX10+SK0ttdTTLvdtIzNd2kahewskqs7HgdkKoBOQWHWPOgfSGPUZXtJ9d/iV00SyAm5s2Ujt2UiCyKeI2g6kA8Ax6zvOkthfX9vCtg2Qj5kg9NltN4McP5sQLLg8cAYPbWLQtL1G2sbuG6uZLYyn+Ssd6940HDBYSzrkknjslSBjtzTTapOzh/9x6pcEtB0x0m1Z3OzDc6zabUfH4rR+hg5+jaz9PbX1WuZ/wBozb0yf7n1nbM/pGdi0+U2djPyHh4Y6q6G2ieG3jiknkuHVcGWUKGc952QBn7AKR5aE5qy1TPy833h/aKuVTPy833h/aKD2lKUClKUClKUClKUClKUClKUEWXawQxVh1MvWKjif1uXlT3amqLJOqOMrslsd+Me2s/o0HzEXIKCrif1uXlT3aYn9bl5U92rXo0HzEXIKG3twCTDEAO3ZFBVxP63Lyp7tMT+ty8qe7VK113Qbsybk4CRNMGks5I1kjXreNmUCRRkcUyOI7xWW/1TSrCWCKaCZ5J0Lxrb2Es52eAyd2h2RxHXigsYn9bl5U92mJ/W5eVPdpb3Gm3Nw8EAjaVNraXdYxstsnrHeMVUtNa0O8Fw0DKVgjMrM1s6B4x1uhKjeL/UuRxHeKC3if1uXlT3aYn9bl5U92sOo6hpenRwPcQyN6R8ktvZSTs3DPxY1JAx2kVPTLuw1NZGtrSdAhAPpNhLbk57hIi5/Cgnif1uXlT3aYn9bl5U92qusapYaSyJNp17cO+zgWemyzgAnBJKKQMdZGc4HAHhmxY3WnX5KwQlXEayFJrV4nVWLAEq6gjijdnZ9Ip1EsT+ty8qe7TE/rcvKnu1Stdd0G6aUQsMRxNMHe0dFkjX4zRsygSAcOKE9Y7xW2SC2dFdYYirDIOwOqgrqpB2ndpG6tpsf4qRAIweo17LGsUyiNQoZSSB1cMe2oSsVidh1hSRQeBZRwW5lVR1DCnH5imJ/W5eVPdqyLWAAAxI30soJNe+jQfMRcgoKuJ/W5eVPdpif1uXlT3atejQfMRcgqpqlzp2lWwuLyLCF1jURWzSszHqAVFLH8BQe4n9bl5U92mJ/W5eVPdrDpt/p2pu6W1ndIUGT6Tps1uPwMiKD+FYLvXNFtbmW3eGeRoTsyvb6bNNHGcZwzohUEAjIJ4dtBdxP63Lyp7tMT+ty8qe7WHUdR0rT47eSeJpBcfJC1s3uC4xnIEascY7eqpWN9pV+YFtlUtPE0qK9uyNsqwVshgCCCQMHBoMmJ/W5eVPdpif1uXlT3atejQfMRcgp6NB8xFyCgq4n9bl5U92pKuyMZJPWSes1Y9Gg+Yj5BVcAJJIg+KrYH0cAf8ANB7Utp/EfyFeUoPdt/EfyFNt/EfyFeUoPdt/EfyFNt/EfyFeUoPdt/EfyFNt/EfyFeUoPdt/EfyFNt/EfyFeUoPK8ZdodZBHEEdYNSpQY8T+ty8qe7TE/rcvKnu1kpQY8T+ty8qe7TE/rcvKnu1kijWWZhIoYKoIB6uOfZWb0aD5iLkFBVxP63Lyp7tMT+ty8qe7Vr0aD5iLkFPRoPmIuQUFXE/rcvKnu0xP63Lyp7tWvRoPmIuQVBks1lSFlgErglEIG0wGMkDtxkfnQYMT+ty8qe7UlXZGMknrJPWasejQfMRcgqEyWcCbcywRpkDacADJOAMnvJAoIUr27FpaW8k8tvtIgyRFbmRj9iqCx/AVrLDXdEv4nmgjmWJJFjLzadNCu0X2AoLoMna4HHV24oNlSq2p3+l6Y0aXMTNJICVitrN55CB1tsRqxwMgZxjJHfUoLvTbjTmv4I95AgO0EtmMikdamPZ29oeHGfooM9KoWusaPdLKVimi3TRq4udPlgOZG2UwHQEgnhkcK2vo0HzEXIKDDSvGRY52RBhdkMB2Dr9le0ClKUClKUCH/lL9xv3Wsl/I0VhcyRnDpEzKe4gGsO3upVkIJUKQdkZIzjs/CpS3VtNE8UizFHUqw3L8QevsqThYtN3CtdwW/SUabe3ckUb3MdvDGdWvN9LtoGDYEhA4nGCMHjhuBFdtortc6HZtOTI0lum2WOS2V45qluPhAjVtTGBgf+ljOB3ZMWewVftZrS1toreFZhHEgRQYXPADHdV2ozFYcLfxdH3sruDUzrmpQ2STW9vFdaS9xDbFcrtIyRbLEbIwzuSMcSCWro9RF1Fd2s1vpd/f20lg0DmzmiidCSpHFpEI4A8VORWS50Potd3ElxddH9PmnkbaeWTTAzMe8kpkmtst7bqAqiUADAAgfh/1SPWc/wC91npy8T9OV6NWai+vbONp0UxXCAyytJIuZm62Ykk/SSalNBqM2nu19pvoSadpc8BdpEcTMVAzHskkJhM/CCniOHXXSRy2MUjSRQFJGzlltmBOTk8dnv41OS7tpY2jkSR0YFWVoHIIPWCMVKeGnN+6xNNf5de3ZyvS2O0vYtMguId69ugk2Ljo/cajAwZcf/GAAw+3P0cas9CntrVp7OC2hg3n8wC16OXOmx8OBLGTKserHEHh210S3tuoCqJQAMACB+H/AFXvp0H1v6L+ytVvM+rMRaI9HGf6n6feXwszFZQzRRtwdoWuTxI2huvRZwPgjg/A5PaOBsdEEN5eyM8lxbLBYQ20li0UqhgGl2WJlgjYjB4bGADkYwBXV+nQfW/ov7KiLm0ErSiNxIyhWcW75IGcAnHUMn8zUiLTCy5mx0281DSps3wuobOO6s7OH0YQuXXaizI22Qx+CQCAg4kkdWOttlZLaJGGGVACPpxWiuNC6K3M8k9z0e0+aaRi0kkmlhmdj1kkpkmttHd20aLHGkiIoAVVgcAAdQAxSpObdUrn5eL7rfutYZ/kJPun9qk8onlV0DBVUjLKVznHYfsryRduN1HWQRQXqVWF7EB8NZQ3aN0x/wCwKenQfW/ov7KCzXP9MJgtvaxpJcxXCzrPFJHpc96gKHqZYurOe0itv6dB9b+i/sp6dB9b+i/soOa6L9INSvZFj1YyrLKGVI06P3luqMCcFpHJXBA6uHX11zOqWfSKfUruW3tZLiBZWW6ms0kt4nZVGTuhqChuwElRnHbX0v06D639F/ZWpu9F6L3tzJc3mg2FxcSHLyzaYHZj9JKZNSRq9bN3F0Y0/U/T91dxFPRzY2xhVlkwoTd7u4OcEdQPHuFVOiEZvtYtf4jo0u80+1kMF5cRy8HeRSx/m20WHPHinZkYrrLtNKvbL0K8skuLTAG4lsy8eB1fBK44Yqvp2m9HtKnM+maPaWczLsGS20/dsV68ZVQccB+Var4pnmEp4acy3VKrenQfW/ov7KenQfW/ov7KirNUz8vN94f2ip+nQfW/ov7KxqdpnfBAdsgHrxgD/FBKlKUClKUClKUClKUClKUClKUClKUErb5eX7q/u1YdfSWTQ79beSWOb0dzG8TbLBgDjBHVxqSSiCVncMVZQMqpbBGewfbUprq3lieNt+FdSpKxSA4PcQOFTVFYmIXTNJu+M6dqepXd1YoNT1rYup4kXF5PlQ7447QAyBnt643+ivrPSuZ4NGZhPLBDvYluZ4iQ0cJcB22hxX4OcsOKjJ4YzWlsuiHR+yu4LmEXIeB1dMWqpgg5HFYwezv411Pp0H1v6L+ytTMT8sxExLjLfVLaxuILm31iSTo9HqGz6ZPeNLEAYHyplYnaTebOCWIDHGeAAw2Etrearo2p3t/cBHutQht5GvZI1dvSP5SY2gDkAgKRxCgYIArufToPrf0X9lDewEY/nfov7KzOF2pzfu+cWN/JPoccmj6vqF7qLaRK+oIbqSRonEa7B2MndvtfFCgFhtH4XXVzX9SsNe/ij2+ptcabb29hM0ltdusaYnk3jbSMBwUcePDZHaBjtNPe1sLG3s4TcNHbxLEheFySFGBn4PXwrP6dB9b+i/srU3la8+GJ5mi0hZNJT007pfR8z7QkBwFYyMTkdpbJJGcZPA81Hp2o6NoraffSi7j9Ot50u1wuWe4RnUr1j4ZYr1/BIB4jj1Xp0H1v6L+yoy3NpMuxLG7rkNhrdyMg5B6uwgH8Km9U2o5npiuuQSS6nYQw2626bAuYNR2JZIyR8Fo3tpE+NxHHP0jJFbDRIdX0yxuRd6dDLMTvdqC/30tzKeBLbUUSrwA6uAAwAMAVtZri0niaKeJ5I2+Mj27EH8CKn6dB9b+i/spFibtJqNnNb6U8960b3lze2rzGPOyuJowqLnjgDt4ZJJwM4rpKqS3NpMuxLG7rkNhrdyMg5B6uwgH8Kl6dB9b+i/soIzf8pvuL+7UqO3vZWkAIUqFG0ME4z2fjUqBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKD/2Q==" alt="아래쪽 버튼 줄 — 포스팅 시작 · 랜덤 시작 · 중지 · 종료"><figcaption>아래쪽 버튼 줄 — 포스팅 시작 · 랜덤 시작 · 중지 · 종료</figcaption></figure>
       <div class="tw"><table>
         <tr><th>버튼</th><th>동작</th></tr>
-        <tr><td><span class="btn">포스팅 시작</span></td><td>정해진 간격으로 하루 최대치까지 계속 올립니다</td></tr>
+        <tr><td><span class="btn">포스팅 시작</span></td><td>정해진 간격으로 하루 최대치까지 계속 올립니다.
+          <b>첫 글이 곧 올라갑니다</b></td></tr>
+        <tr><td><span class="btn">🎲 랜덤 시작</span></td><td>위와 같은데, <b>첫 글만 0~60분 뒤에</b> 올립니다.<br>
+          계정을 여러 개 한꺼번에 켤 때 쓰세요 — 첫 글이 같은 시각에 몰리지 않습니다</td></tr>
         <tr><td><span class="btn">지금 바로 발행</span></td><td>기다리지 않고 한 편만 즉시 올립니다</td></tr>
         <tr><td><span class="btn">정보성 바로 발행</span></td><td>정보성 글로 한 편 즉시 올립니다</td></tr>
         <tr><td><span class="btn">중지</span></td><td>지금 쓰던 글을 마치고 멈춥니다</td></tr>
