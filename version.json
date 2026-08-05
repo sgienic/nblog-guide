@@ -1,7 +1,7 @@
 {
-  "latest": "1.55.0",
-  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
+  "latest": "1.56.0",
+  "download": "",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.55.0: 같은 로그가 밤새 쌓이던 것"
+  "notes": "- v1.56.0: 업데이트 재시작이 버전확인·로그인을 건너뛴다"
 }
