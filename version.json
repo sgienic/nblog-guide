@@ -1,7 +1,7 @@
 {
-  "latest": "1.95.0",
+  "latest": "1.96.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- 설정을 탭 셋으로 나눔 (처음 설정 / 포스팅 / 키워드)"
+  "notes": "- 브라우저를 손으로 닫으면 '열려 있습니다' 표시가 영영 남던 문제"
 }
