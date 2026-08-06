@@ -1,7 +1,7 @@
 {
-  "latest": "1.97.0",
+  "latest": "1.98.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v1.97.0 — 황금키워드는 데이터로 찾고, 쓸지 말지는 AI 가 고른다\n- 황금키워드 발굴 — 사람은 찾는데 아직 글은 적은 말로 글을 쓴다\n- 키워드와 정보성 글을 [글감] 한 탭으로 묶음\n- 계정 보호를 제 탭으로 빼고, 남아 있던 번호 안내를 탭 이름으로 고침"
+  "notes": "- v1.98.0 — 주제 고르기가 발행을 막지 못하게\n- 발행할 때 네이버 주제 분류를 지정한다\n- 새 버전 안내에서 집안일 줄 빼기"
 }
