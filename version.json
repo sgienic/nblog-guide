@@ -1,7 +1,7 @@
 {
-  "latest": "1.86.0",
+  "latest": "1.87.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- 고른 분야에 소식이 없으면 다른 분야로 옮겨 쓴다"
+  "notes": "- 정보성 글 설정을 알아보기 쉽게 바꿈"
 }
