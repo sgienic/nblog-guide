@@ -1,7 +1,7 @@
 {
-  "latest": "1.88.0",
+  "latest": "1.89.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- 로그인된 브라우저를 직접 열어 볼 수 있게"
+  "notes": "- 브라우저 열림 표시에 남은 시간과 닫기 버튼"
 }
