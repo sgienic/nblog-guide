@@ -1,7 +1,7 @@
 {
-  "latest": "1.91.0",
+  "latest": "1.92.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- 처음 설정 세 칸을 하나로 합침"
+  "notes": "- 설정 칸을 셋으로 줄임 (처음 설정 / 포스팅 / 키워드)"
 }
