@@ -1,7 +1,7 @@
 {
-  "latest": "1.93.0",
+  "latest": "1.95.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- 업데이트가 백신 때문에 실패하던 문제 외"
+  "notes": "- 설정을 탭 셋으로 나눔 (처음 설정 / 포스팅 / 키워드)"
 }
