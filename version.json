@@ -1,7 +1,7 @@
 {
-  "latest": "2.17.0",
-  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
-  "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
+  "latest": "2.18.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.18.0/NaverBlogPoster_2.18.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.18.0/NaverBlogPoster_Setup_2.18.0.zip",
   "force": false,
-  "notes": "- v2.17.0 — 로그인 실패 때 '실제로 무엇이 문제인지' 를 적어 준다"
+  "notes": "- v2.18.0 — 업데이트가 중간에 끊기면 그 파일을 쓰지 않는다"
 }
