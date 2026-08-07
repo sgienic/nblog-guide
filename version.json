@@ -1,7 +1,7 @@
 {
-  "latest": "2.5.0",
+  "latest": "2.6.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v2.5.0 — 자동완성이 마르면 지금 뜨는 검색어에서 찾는다"
+  "notes": "- v2.6.0 — 블로그마다 컨셉이 달라지게, 그리고 출처 링크는 남기게"
 }
