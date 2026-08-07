@@ -1,7 +1,7 @@
 {
-  "latest": "2.12.0",
+  "latest": "2.13.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v2.12.0 — 지역·취급 품목이 키워드 고르기에 반영되고, 작성 예시를 넣었다"
+  "notes": "- v2.13.0 — 발행했는데 시트에 안 남던 문제 + 무엇으로 쓴 글인지도 남긴다"
 }
