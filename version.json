@@ -1,7 +1,7 @@
 {
-  "latest": "2.6.0",
+  "latest": "2.8.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v2.6.0 — 블로그마다 컨셉이 달라지게, 그리고 출처 링크는 남기게"
+  "notes": "- v2.8.0 — 무엇을 꼭 넣어야 하는지 칸 이름에 적는다"
 }
