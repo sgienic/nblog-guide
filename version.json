@@ -1,7 +1,7 @@
 {
-  "latest": "2.16.0",
+  "latest": "2.17.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v2.16.0 — 알아서 받기면 정말 알아서 받는다 (묻지 않는다)"
+  "notes": "- v2.17.0 — 로그인 실패 때 '실제로 무엇이 문제인지' 를 적어 준다"
 }
