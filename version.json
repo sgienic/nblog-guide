@@ -1,7 +1,7 @@
 {
-  "latest": "2.14.0",
+  "latest": "2.16.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view?usp=drive_link",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view?usp=drive_link",
   "force": false,
-  "notes": "- v2.14.0 — 설명서 맨 앞에 실제로 돌아가는 영상을 넣었다"
+  "notes": "- v2.16.0 — 알아서 받기면 정말 알아서 받는다 (묻지 않는다)"
 }
