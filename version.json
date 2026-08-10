@@ -1,7 +1,7 @@
 {
-  "latest": "2.32.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.32.0/NaverBlogPoster_2.32.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.32.0/NaverBlogPoster_Setup_2.32.0.zip",
+  "latest": "2.33.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.33.0/NaverBlogPoster_2.33.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.33.0/NaverBlogPoster_Setup_2.33.0.zip",
   "force": false,
-  "notes": "- v2.32.0\n- 오늘 목표를 채우면 수동 발행이 통째로 막히던 것"
+  "notes": "- v2.33.0\n- 문체 규칙이 통째로 버려지고 있었다 + 출처 링크가 빠지던 것"
 }
