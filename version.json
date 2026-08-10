@@ -1,7 +1,7 @@
 {
-  "latest": "2.33.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.33.0/NaverBlogPoster_2.33.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.33.0/NaverBlogPoster_Setup_2.33.0.zip",
+  "latest": "2.34.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.34.0/NaverBlogPoster_2.34.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.34.0/NaverBlogPoster_Setup_2.34.0.zip",
   "force": false,
-  "notes": "- v2.33.0\n- 문체 규칙이 통째로 버려지고 있었다 + 출처 링크가 빠지던 것"
+  "notes": "- v2.34.0\n- 넘기는 본문을 700자로 — 그 이상은 사실이 아니라 남의 문장이다"
 }
