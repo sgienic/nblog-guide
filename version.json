@@ -1,7 +1,7 @@
 {
-  "latest": "2.35.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.35.0/NaverBlogPoster_2.35.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.35.0/NaverBlogPoster_Setup_2.35.0.zip",
+  "latest": "2.36.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.36.0/NaverBlogPoster_2.36.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.36.0/NaverBlogPoster_Setup_2.36.0.zip",
   "force": false,
-  "notes": "- v2.35.0\n- 상투구는 부탁하지 말고 코드로 지운다"
+  "notes": "- v2.36.0\n- '키워드 그대로' 로 쓰는 글의 제목에도 제목 규칙을 준다"
 }
