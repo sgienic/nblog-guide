@@ -1,7 +1,7 @@
 {
-  "latest": "2.36.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.36.0/NaverBlogPoster_2.36.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.36.0/NaverBlogPoster_Setup_2.36.0.zip",
+  "latest": "2.38.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.38.0/NaverBlogPoster_2.38.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.38.0/NaverBlogPoster_Setup_2.38.0.zip",
   "force": false,
-  "notes": "- v2.36.0\n- '키워드 그대로' 로 쓰는 글의 제목에도 제목 규칙을 준다"
+  "notes": "- v2.38.0\n- 마사지샵이 손님에게 '전문가에게 맡기세요' 라고 하고 있었다"
 }
