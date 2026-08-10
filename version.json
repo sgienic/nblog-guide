@@ -1,7 +1,7 @@
 {
-  "latest": "2.31.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.31.0/NaverBlogPoster_2.31.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.31.0/NaverBlogPoster_Setup_2.31.0.zip",
+  "latest": "2.32.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.32.0/NaverBlogPoster_2.32.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.32.0/NaverBlogPoster_Setup_2.32.0.zip",
   "force": false,
-  "notes": "- v2.31.0\n- 기사 본문에서 사실을 가져온다 — 빈 글이 나오던 진짜 이유"
+  "notes": "- v2.32.0\n- 오늘 목표를 채우면 수동 발행이 통째로 막히던 것"
 }
