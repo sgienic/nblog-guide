@@ -1,7 +1,7 @@
 {
-  "latest": "2.21.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.21.0/NaverBlogPoster_2.21.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.21.0/NaverBlogPoster_Setup_2.21.0.zip",
+  "latest": "2.22.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.22.0/NaverBlogPoster_2.22.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.22.0/NaverBlogPoster_Setup_2.22.0.zip",
   "force": false,
-  "notes": "- v2.21.0"
+  "notes": "- v2.22.0\n- 황금키워드가 실은 순위 없는 목록이었다\n- claude_run.bat 이 cp949 가 아니라 깨졌다\n- claude_run.bat — 파워셸에서 claude 가 안 먹힐 때"
 }
