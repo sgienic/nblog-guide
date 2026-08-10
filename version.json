@@ -1,7 +1,7 @@
 {
-  "latest": "2.34.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.34.0/NaverBlogPoster_2.34.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.34.0/NaverBlogPoster_Setup_2.34.0.zip",
+  "latest": "2.35.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.35.0/NaverBlogPoster_2.35.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.35.0/NaverBlogPoster_Setup_2.35.0.zip",
   "force": false,
-  "notes": "- v2.34.0\n- 넘기는 본문을 700자로 — 그 이상은 사실이 아니라 남의 문장이다"
+  "notes": "- v2.35.0\n- 상투구는 부탁하지 말고 코드로 지운다"
 }
