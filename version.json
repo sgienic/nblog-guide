@@ -1,7 +1,7 @@
 {
-  "latest": "2.25.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.25.0/NaverBlogPoster_2.25.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.25.0/NaverBlogPoster_Setup_2.25.0.zip",
+  "latest": "2.26.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.26.0/NaverBlogPoster_2.26.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.26.0/NaverBlogPoster_Setup_2.26.0.zip",
   "force": false,
-  "notes": "- 이웃 순회를 적당히 — 세 번에 한 번, 한두 곳, 찾은 목록은 재사용\n- v2.25.0\n- 기록은 D1 이 1차, 구글 시트가 2차 · 이웃 블로그도 차례로 돈다"
+  "notes": "- v2.26.0\n- [글감] 탭 순서를 쓰임새대로 — 키워드 → 정보성 → 황금키워드\n- 이웃 순회를 적당히 — 세 번에 한 번, 한두 곳, 찾은 목록은 재사용"
 }
