@@ -1,7 +1,7 @@
 {
-  "latest": "2.38.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.38.0/NaverBlogPoster_2.38.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.38.0/NaverBlogPoster_Setup_2.38.0.zip",
+  "latest": "2.37.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.37.0/NaverBlogPoster_2.37.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.37.0/NaverBlogPoster_Setup_2.37.0.zip",
   "force": false,
-  "notes": "- v2.38.0\n- 마사지샵이 손님에게 '전문가에게 맡기세요' 라고 하고 있었다"
+  "notes": "- v2.37.0\n- 주제는 맞는데 알맹이가 없던 것 — 읽는 사람이 누구인지 먼저 정하게 한다"
 }
