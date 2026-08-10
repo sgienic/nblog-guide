@@ -1,7 +1,7 @@
 {
-  "latest": "2.27.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.27.0/NaverBlogPoster_2.27.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.27.0/NaverBlogPoster_Setup_2.27.0.zip",
+  "latest": "2.28.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.28.0/NaverBlogPoster_2.28.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.28.0/NaverBlogPoster_Setup_2.28.0.zip",
   "force": false,
-  "notes": "- v2.27.0\n- 황금키워드로 쓴 글이 올라갔는데 '실패' 로 기록되던 것"
+  "notes": "- v2.28.0\n- 제목을 자료 보고 다시 짓는다 + 제목 규칙을 클릭되는 쪽으로\n- D1 에 있는데 시트에 없는 것을 밀어 넣는 도구"
 }
