@@ -1,7 +1,7 @@
 {
-  "latest": "2.24.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.24.0/NaverBlogPoster_2.24.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.24.0/NaverBlogPoster_Setup_2.24.0.zip",
+  "latest": "2.25.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.25.0/NaverBlogPoster_2.25.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.25.0/NaverBlogPoster_Setup_2.25.0.zip",
   "force": false,
-  "notes": "- v2.24.0\n- 황금키워드 섞기 - 정보성처럼 비율로 쓰고, 보관함은 따로 둔다"
+  "notes": "- 이웃 순회를 적당히 — 세 번에 한 번, 한두 곳, 찾은 목록은 재사용\n- v2.25.0\n- 기록은 D1 이 1차, 구글 시트가 2차 · 이웃 블로그도 차례로 돈다"
 }
