@@ -1,7 +1,7 @@
 {
-  "latest": "2.29.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.29.0/NaverBlogPoster_2.29.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.29.0/NaverBlogPoster_Setup_2.29.0.zip",
+  "latest": "2.30.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.30.0/NaverBlogPoster_2.30.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.30.0/NaverBlogPoster_Setup_2.30.0.zip",
   "force": false,
-  "notes": "- v2.29.0\n- 브라우저 열기 버튼 상태를 매 바퀴 본다 (값이 바뀔 때만 다시 그린다)\n- [오늘 발행 현황] 에 브라우저 열기 버튼"
+  "notes": "- v2.30.0\n- 사람이 쓴 글처럼 · 제목에 지역(GEO) 로직"
 }
