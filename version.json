@@ -1,7 +1,7 @@
 {
-  "latest": "2.23.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.23.0/NaverBlogPoster_2.23.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.23.0/NaverBlogPoster_Setup_2.23.0.zip",
+  "latest": "2.24.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.24.0/NaverBlogPoster_2.24.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.24.0/NaverBlogPoster_Setup_2.24.0.zip",
   "force": false,
-  "notes": "- v2.23.0\n- 열쇠가 없어도 순위를 매긴다 + 고르는 기준을 사장님이 정한다"
+  "notes": "- v2.24.0\n- 황금키워드 섞기 - 정보성처럼 비율로 쓰고, 보관함은 따로 둔다"
 }
