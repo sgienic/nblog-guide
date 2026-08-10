@@ -1,7 +1,7 @@
 {
-  "latest": "2.20.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.20.0/NaverBlogPoster_2.20.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.20.0/NaverBlogPoster_Setup_2.20.0.zip",
+  "latest": "2.21.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.21.0/NaverBlogPoster_2.21.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.21.0/NaverBlogPoster_Setup_2.21.0.zip",
   "force": false,
-  "notes": "- 정보성 글도 하루 한도를 깎는다\n- [요즘 뜨는 글감으로 발행] 버튼을 넣었다\n- '마지막 글 · 방금' 이 다섯 시간 뒤에도 '방금' 이었다\n- v2.19.0 — 인증 서버를 클라우드플레어로 옮긴다\n- 체험 키도 앱스 스크립트에서 그대로 읽어 온다\n- 서버를 실제로 두드려 보는 검사를 넣었다 (33개 통과)\n- D1 은 한 문장에 변수를 100개까지만 받는다\n- D1 에 실제로 올리고, 검사에서 나온 열 군데를 고쳤다"
+  "notes": "- v2.21.0"
 }
