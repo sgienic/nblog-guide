@@ -285,7 +285,7 @@
   <header>
     <span class="eyebrow"><span class="dot"></span>사용 설명서</span>
     <h1>네이버 블로그 자동 포스팅</h1>
-    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v2.46.0 기준</span></p>
+    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v2.47.0 기준</span></p>
 
     <!-- 글이 실제로 올라가는 모습. 글로 열 줄 읽는 것보다 한 번 보는 게 빠르다. -->
     <div style="margin:26px auto 0; max-width:760px">
@@ -509,6 +509,35 @@
         <tr><td><strong>픽사베이 키</strong></td><td>선택 — 무료 사진을 쓸 때만</td><td>pixabay.com (무료)</td></tr>
       </table></div>
       <p>둘 중 하나만 넣어도 <span class="btn">키 저장</span> 이 됩니다. 저장한 키는 컴퓨터에만 보관되고, 다시 켜도 유지됩니다.</p>
+
+      <div class="note">
+        <div class="t">GPT 키 만드는 순서 — 3분이면 됩니다</div>
+        <p><strong>충전을 먼저 하셔야 합니다.</strong> 카드만 등록하고 충전을 안 하면
+        키는 만들어지는데 글을 쓸 때 <span class="btn">You have no credits remaining</span>
+        이 뜹니다. 가장 많이 걸리는 곳입니다.</p>
+
+        <div class="tw" style="margin-top:10px"><table>
+          <tr><th>순서</th><th>어디서</th><th>무엇을</th></tr>
+          <tr><td><strong>1</strong></td>
+              <td><a href="https://platform.openai.com/" target="_blank" rel="noopener">platform.openai.com</a></td>
+              <td>가입하거나 로그인합니다 (구글 계정으로도 됩니다)</td></tr>
+          <tr><td><strong>2</strong></td>
+              <td><a href="https://platform.openai.com/settings/organization/billing" target="_blank" rel="noopener">Billing</a></td>
+              <td><span class="btn">Add payment details</span> 로 카드 등록 →
+                  <strong><span class="btn">Add to credit balance</span> 로 금액 충전</strong> (최소 $5)</td></tr>
+          <tr><td><strong>3</strong></td>
+              <td><a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">API keys</a></td>
+              <td><span class="btn">Create new secret key</span> → 이름은 아무거나 →
+                  <strong>만들어지면 그 자리에서 복사</strong></td></tr>
+          <tr><td><strong>4</strong></td>
+              <td>이 프로그램</td>
+              <td>[처음 설정] 탭 → API 키 칸에 붙여넣고 <span class="btn">키 저장</span></td></tr>
+        </table></div>
+
+        <p style="margin-top:10px"><strong>창을 닫으면 키를 다시 볼 수 없습니다.</strong>
+        놓치셨으면 지우고 새로 만드시면 됩니다. 키는 <code>sk-proj-</code> 로 시작합니다.</p>
+        <p>$5 를 넣으면 글이 몇 편이나 나오는지는 <a href="#cost">글 한 편 비용</a> 을 보세요.</p>
+      </div>
     </section>
 
       <div class="note">
