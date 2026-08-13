@@ -1,7 +1,7 @@
 {
-  "latest": "2.63.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.63.0/NaverBlogPoster_2.63.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.63.0/NaverBlogPoster_Setup_2.63.0.zip",
+  "latest": "2.64.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.64.0/NaverBlogPoster_2.64.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.64.0/NaverBlogPoster_Setup_2.64.0.zip",
   "force": false,
-  "notes": "- 설명서가 가르친 예시가 사고의 원인이었다\n- 화면 표시가 무슨 뜻인지 어디에도 없던 것\n- v2.63.0"
+  "notes": "- 전기공사 블로그에 '케이뱅크 황금캡슐' 이 올라간 것\n- v2.64.0\n- 설명서가 가르친 예시가 사고의 원인이었다\n- 화면 표시가 무슨 뜻인지 어디에도 없던 것"
 }
