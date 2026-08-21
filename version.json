@@ -1,7 +1,7 @@
 {
-  "latest": "2.84.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.84.0/NaverBlogPoster_2.84.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.84.0/NaverBlogPoster_Setup_2.84.0.zip",
+  "latest": "2.86.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.86.0/NaverBlogPoster_2.86.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.86.0/NaverBlogPoster_Setup_2.86.0.zip",
   "force": false,
-  "notes": "- v2.84.0"
+  "notes": "- @ 빌드 점검이 잡은 것 — 없는 위젯을 만지는 손잡이\n- v2.86.0"
 }
