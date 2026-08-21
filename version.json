@@ -1,7 +1,7 @@
 {
-  "latest": "2.82.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.82.0/NaverBlogPoster_2.82.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.82.0/NaverBlogPoster_Setup_2.82.0.zip",
+  "latest": "2.83.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.83.0/NaverBlogPoster_2.83.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.83.0/NaverBlogPoster_Setup_2.83.0.zip",
   "force": false,
-  "notes": "- v2.82.0"
+  "notes": "- v2.83.0"
 }
