@@ -1,7 +1,7 @@
 {
-  "latest": "2.95.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.95.0/NaverBlogPoster_2.95.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.95.0/NaverBlogPoster_Setup_2.95.0.zip",
+  "latest": "2.96.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.96.0/NaverBlogPoster_2.96.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.96.0/NaverBlogPoster_Setup_2.96.0.zip",
   "force": false,
-  "notes": "- v2.95.0 - 에둘러 지어내는 말투를 막았다"
+  "notes": "- v2.96.0 - 담아 둔 가게가 껐다 켜도 남는다"
 }
