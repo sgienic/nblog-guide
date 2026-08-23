@@ -1,7 +1,7 @@
 {
-  "latest": "2.93.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.93.0/NaverBlogPoster_2.93.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.93.0/NaverBlogPoster_Setup_2.93.0.zip",
+  "latest": "2.94.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.94.0/NaverBlogPoster_2.94.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.94.0/NaverBlogPoster_Setup_2.94.0.zip",
   "force": false,
-  "notes": "- v2.93.0 - 장소를 끝(5쪽 35곳)까지 가져온다"
+  "notes": "- v2.94.0 - 같은 가게 두 번 안 쓰기 · 병원은 위치만 · 그림 규칙 파일"
 }
