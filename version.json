@@ -1,7 +1,7 @@
 {
-  "latest": "2.91.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.91.0/NaverBlogPoster_2.91.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.91.0/NaverBlogPoster_Setup_2.91.0.zip",
+  "latest": "2.92.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.92.0/NaverBlogPoster_2.92.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.92.0/NaverBlogPoster_Setup_2.92.0.zip",
   "force": false,
-  "notes": "- v2.91.0"
+  "notes": "- v2.92.0 - 장소 페이지 넘기기가 실제로 되게 고침"
 }
