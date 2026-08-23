@@ -1,7 +1,7 @@
 {
-  "latest": "2.92.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.92.0/NaverBlogPoster_2.92.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.92.0/NaverBlogPoster_Setup_2.92.0.zip",
+  "latest": "2.93.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.93.0/NaverBlogPoster_2.93.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.93.0/NaverBlogPoster_Setup_2.93.0.zip",
   "force": false,
-  "notes": "- v2.92.0 - 장소 페이지 넘기기가 실제로 되게 고침"
+  "notes": "- v2.93.0 - 장소를 끝(5쪽 35곳)까지 가져온다"
 }
