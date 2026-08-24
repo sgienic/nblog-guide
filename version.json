@@ -1,7 +1,7 @@
 {
-  "latest": "2.97.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.97.0/NaverBlogPoster_2.97.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.97.0/NaverBlogPoster_Setup_2.97.0.zip",
+  "latest": "2.98.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.98.0/NaverBlogPoster_2.98.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.98.0/NaverBlogPoster_Setup_2.98.0.zip",
   "force": false,
-  "notes": "- v2.97.0 - 같은 가게 두 번 나가는 길을 두 군데 더 막았다"
+  "notes": "- v2.98.0 - 켤 때 알아서 시작 · 켤 때는 안 묻고 업데이트 · 파일이 안 깨지게"
 }
