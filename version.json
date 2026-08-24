@@ -1,7 +1,7 @@
 {
-  "latest": "2.98.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.98.0/NaverBlogPoster_2.98.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.98.0/NaverBlogPoster_Setup_2.98.0.zip",
+  "latest": "2.99.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.99.0/NaverBlogPoster_2.99.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.99.0/NaverBlogPoster_Setup_2.99.0.zip",
   "force": false,
-  "notes": "- v2.98.0 - 켤 때 알아서 시작 · 켤 때는 안 묻고 업데이트 · 파일이 안 깨지게"
+  "notes": "- v2.99.0 - 담아 둔 가게를 목록에서 골라 뺄 수 있다"
 }
