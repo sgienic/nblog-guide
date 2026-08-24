@@ -285,7 +285,7 @@
   <header>
     <span class="eyebrow"><span class="dot"></span>사용 설명서</span>
     <h1>네이버 블로그 자동 포스팅</h1>
-    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v2.96.0 기준</span></p>
+    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v2.97.0 기준</span></p>
 
     <!-- 글이 실제로 올라가는 모습. 글로 열 줄 읽는 것보다 한 번 보는 게 빠르다. -->
     <div style="margin:26px auto 0; max-width:760px">
@@ -649,6 +649,12 @@
       <strong>같은 가게가 양쪽에 나옵니다.</strong>
       한 번 소개한 가게는 기록해 두었다가 다음부터 건너뜁니다.
       프로그램을 껐다 켜셔도 기억합니다.</p>
+      <p><b>기록이 없어도 막습니다.</b> 실제로 나간 글
+      (<code>published_posts.csv</code>)도 함께 봅니다.
+      기록 파일이 없거나 예전 버전으로 쓰신 글이라도,
+      <strong>90일 안에 그 가게로 글이 나갔으면 건너뜁니다.</strong>
+      모을 때부터 빼기 때문에 목록에 아예 안 올라옵니다
+      (몇 곳을 왜 뺐는지는 로그에 적힙니다).</p>
       <p>기록은 <code>data/used_place.txt</code> 에 쌓입니다.
       같은 가게를 일부러 다시 소개하고 싶으시면 그 파일에서 해당 줄을 지우시면 됩니다
       (파일을 통째로 지우면 처음부터 다시 시작합니다).</p>
