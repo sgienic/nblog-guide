@@ -1,7 +1,7 @@
 {
-  "latest": "2.101.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.101.0/NaverBlogPoster_2.101.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.101.0/NaverBlogPoster_Setup_2.101.0.zip",
+  "latest": "2.102.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.102.0/NaverBlogPoster_2.102.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.102.0/NaverBlogPoster_Setup_2.102.0.zip",
   "force": false,
-  "notes": "- v2.101.0 - 돌아가는 중에 적은 지도 장소가 먹는다 · 계정 보호 탭 정리"
+  "notes": "- v2.102.0 - SNS 탭 삭제 · 블로그 정보를 포스팅으로 · 겹치는 버튼 정리"
 }
