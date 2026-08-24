@@ -285,7 +285,7 @@
   <header>
     <span class="eyebrow"><span class="dot"></span>사용 설명서</span>
     <h1>네이버 블로그 자동 포스팅</h1>
-    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v2.99.0 기준</span></p>
+    <p style="margin:14px 0 0"><span class="verbadge">이 설명서는 v2.100.0 기준</span></p>
 
     <!-- 글이 실제로 올라가는 모습. 글로 열 줄 읽는 것보다 한 번 보는 게 빠르다. -->
     <div style="margin:26px auto 0; max-width:760px">
@@ -728,6 +728,36 @@
       <p><strong>[2. 미리보기]</strong> 를 누르면 담아 둔 첫 가게로 글을 만들어 보여드립니다.
       <strong>발행하지 않습니다.</strong> 무엇이 나오는지 보고 비율을 올리시면 됩니다.
       없는 경력이나 가격이 적혀 있으면 알려주세요 &mdash; 규칙을 더 조입니다.</p>
+
+      <h3>제목과 첫 줄에 훅 걸기 &mdash; title_rules.txt</h3>
+      <p>검색 결과에는 비슷한 제목이 스무 개씩 뜹니다.
+      정보만 정확히 담은 제목은 그중 하나로 묻힙니다.
+      <strong>눌리는 제목에는 조각이 하나 더</strong> 있습니다 &mdash; 읽는 분이
+      &lsquo;어, 내 얘긴데&rsquo; 하거나 &lsquo;어? 그런가?&rsquo; 하고
+      손이 멈추는 조각입니다. 그걸 훅이라고 합니다.</p>
+      <div class="tw"><table>
+        <tr><th>훅 없음</th><th>훅 있음</th></tr>
+        <tr><td>에어컨 청소 주기, 언제 해야 할까요</td>
+            <td>에어컨 청소 주기, 여름 전에 꼭 확인하세요</td></tr>
+        <tr><td>중고 초음파기기 매입 안내</td>
+            <td>중고 초음파기기 매입, 헛걸음 안 하려면 미리 알아두세요</td></tr>
+        <tr><td>자취방 곰팡이 제거 방법</td>
+            <td>자취방 곰팡이 제거, 자주 하는 실수와 피하는 법</td></tr>
+      </table></div>
+      <p>훅은 다섯 가지 중 하나로 만듭니다 &mdash;
+      <strong>통념 뒤집기 · 대가 알려주기 · 갈림길 세우기 · 시점 못박기 · 범위 좁히기.</strong>
+      매번 같은 종류만 나오지 않게 섞습니다.</p>
+      <p><strong>본문 첫 두세 줄</strong>에도 같은 것이 걸립니다.
+      &lsquo;안녕하세요~&rsquo; 나 &lsquo;이 글에서는 ~을 알아보겠습니다&rsquo; 로 열지 않고,
+      읽는 분이 지금 겪고 있을 장면이나 결론부터 꺼냅니다.
+      검색해서 들어온 분은 이미 무엇을 찾는지 알고 계시니까요.</p>
+      <p><b>없는 이야기를 지어내지는 않습니다.</b> 훅은 말하는 각도를 바꾸는 것이지
+      없는 숫자나 순위를 붙이는 게 아닙니다.
+      자료에서 훅을 못 찾으면 담백한 제목으로 갑니다 &mdash;
+      지어낸 훅보다 그편이 낫기 때문입니다.</p>
+      <p>프로그램 폴더의 <code>title_rules.txt</code> 를 고치시면 바뀝니다.
+      새 버전을 받으시면 이 파일이 새것으로 바뀌고, 고쳐 쓰시던 것은
+      <code>title_rules_예전_날짜.txt</code> 로 옆에 남습니다.</p>
 
       <h3>사진을 어떻게 만들지 정하기 &mdash; image_rules.txt</h3>
       <p>프로그램 폴더의 <code>image_rules.txt</code> 를 고치시면

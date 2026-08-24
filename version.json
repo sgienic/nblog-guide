@@ -1,7 +1,7 @@
 {
-  "latest": "2.99.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.99.0/NaverBlogPoster_2.99.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.99.0/NaverBlogPoster_Setup_2.99.0.zip",
+  "latest": "2.100.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.100.0/NaverBlogPoster_2.100.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.100.0/NaverBlogPoster_Setup_2.100.0.zip",
   "force": false,
-  "notes": "- v2.99.0 - 담아 둔 가게를 목록에서 골라 뺄 수 있다"
+  "notes": "- v2.100.0 - 제목과 첫 줄에 훅을 건다"
 }
