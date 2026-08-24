@@ -1,7 +1,7 @@
 {
-  "latest": "2.100.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.100.0/NaverBlogPoster_2.100.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.100.0/NaverBlogPoster_Setup_2.100.0.zip",
+  "latest": "2.101.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.101.0/NaverBlogPoster_2.101.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.101.0/NaverBlogPoster_Setup_2.101.0.zip",
   "force": false,
-  "notes": "- v2.100.0 - 제목과 첫 줄에 훅을 건다"
+  "notes": "- v2.101.0 - 돌아가는 중에 적은 지도 장소가 먹는다 · 계정 보호 탭 정리"
 }
