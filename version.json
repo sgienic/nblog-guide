@@ -1,7 +1,7 @@
 {
-  "latest": "2.106.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.106.0/NaverBlogPoster_2.106.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.106.0/NaverBlogPoster_Setup_2.106.0.zip",
+  "latest": "2.107.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.107.0/NaverBlogPoster_2.107.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.107.0/NaverBlogPoster_Setup_2.107.0.zip",
   "force": false,
-  "notes": "- v2.106.0 - 홈판에서 제일 먼저 보이는 자리를 고쳤다 (썸네일)"
+  "notes": "- v2.107.0 - '황금키워드' 를 실제로 하는 일대로 고쳐 부른다"
 }
