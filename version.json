@@ -1,7 +1,7 @@
 {
-  "latest": "2.105.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.105.0/NaverBlogPoster_2.105.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.105.0/NaverBlogPoster_Setup_2.105.0.zip",
+  "latest": "2.106.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.106.0/NaverBlogPoster_2.106.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.106.0/NaverBlogPoster_Setup_2.106.0.zip",
   "force": false,
-  "notes": "- v2.105.0 - 주제를 안 고르셨으면 시작할 때 알아서 정한다"
+  "notes": "- v2.106.0 - 홈판에서 제일 먼저 보이는 자리를 고쳤다 (썸네일)"
 }
