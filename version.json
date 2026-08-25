@@ -1,7 +1,7 @@
 {
-  "latest": "2.104.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.104.0/NaverBlogPoster_2.104.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.104.0/NaverBlogPoster_Setup_2.104.0.zip",
+  "latest": "2.105.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.105.0/NaverBlogPoster_2.105.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.105.0/NaverBlogPoster_Setup_2.105.0.zip",
   "force": false,
-  "notes": "- v2.104.0 - 병·의원 못박기를 다시 맨 끝으로"
+  "notes": "- v2.105.0 - 주제를 안 고르셨으면 시작할 때 알아서 정한다"
 }
