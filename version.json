@@ -1,7 +1,7 @@
 {
-  "latest": "2.107.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.107.0/NaverBlogPoster_2.107.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.107.0/NaverBlogPoster_Setup_2.107.0.zip",
+  "latest": "2.108.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.108.0/NaverBlogPoster_2.108.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.108.0/NaverBlogPoster_Setup_2.108.0.zip",
   "force": false,
-  "notes": "- v2.107.0 - '황금키워드' 를 실제로 하는 일대로 고쳐 부른다"
+  "notes": "- v2.108.0 - 검색어 출처 콤보박스를 알아볼 수 있게"
 }
