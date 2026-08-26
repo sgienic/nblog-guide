@@ -1,7 +1,7 @@
 {
-  "latest": "2.117.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.117.0/NaverBlogPoster_2.117.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.117.0/NaverBlogPoster_Setup_2.117.0.zip",
+  "latest": "2.118.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.118.0/NaverBlogPoster_2.118.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.118.0/NaverBlogPoster_Setup_2.118.0.zip",
   "force": false,
-  "notes": "- v2.117.0 - 썸네일 글자가 잘리던 것 (v2.114.0 에서 내가 낸 것)"
+  "notes": "- v2.118.0 - 설명서에 '한눈에 보기' 흐름도"
 }
