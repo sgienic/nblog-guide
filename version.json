@@ -1,7 +1,7 @@
 {
-  "latest": "2.119.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.119.0/NaverBlogPoster_2.119.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.119.0/NaverBlogPoster_Setup_2.119.0.zip",
+  "latest": "2.120.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.120.0/NaverBlogPoster_2.120.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.120.0/NaverBlogPoster_Setup_2.120.0.zip",
   "force": false,
-  "notes": "- v2.119.0 - 상위 글 훑어보기 · 쓰기 전에 '뚫을 수 있나' 를 본다"
+  "notes": "- v2.120.0 - 유입 검색어가 이 블로그 것이 되게"
 }
