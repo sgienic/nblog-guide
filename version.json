@@ -1,7 +1,7 @@
 {
-  "latest": "2.121.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.121.0/NaverBlogPoster_2.121.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.121.0/NaverBlogPoster_Setup_2.121.0.zip",
+  "latest": "2.122.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.122.0/NaverBlogPoster_2.122.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.122.0/NaverBlogPoster_Setup_2.122.0.zip",
   "force": false,
-  "notes": "- v2.121.0 - '서울 전시회' 같은 넓은 말을 알맹이 있는 제목으로 · 버튼 이름"
+  "notes": "- v2.122.0 - 글 쓰는 방향을 두 갈래로 (블로그 주제 중심 · 홈판 성장용)"
 }
