@@ -1,7 +1,7 @@
 {
-  "latest": "2.114.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.114.0/NaverBlogPoster_2.114.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.114.0/NaverBlogPoster_Setup_2.114.0.zip",
+  "latest": "2.115.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.115.0/NaverBlogPoster_2.115.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.115.0/NaverBlogPoster_Setup_2.115.0.zip",
   "force": false,
-  "notes": "- v2.114.0 - 썸네일이 다 비슷하던 것 · 배치를 셋으로"
+  "notes": "- v2.115.0 - 글과 안 맞는 소제목을 억지로 넣던 것"
 }
