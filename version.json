@@ -1,7 +1,7 @@
 {
-  "latest": "2.112.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.112.0/NaverBlogPoster_2.112.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.112.0/NaverBlogPoster_Setup_2.112.0.zip",
+  "latest": "2.113.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.113.0/NaverBlogPoster_2.113.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.113.0/NaverBlogPoster_Setup_2.113.0.zip",
   "force": false,
-  "notes": "- v2.112.0 - 어느 버튼이 홈용인지 화면에서 알려 준다"
+  "notes": "- v2.113.0 - 안 쓴 자료를 '참고한 기사' 로 밝히던 것 (v2.109.0 이 못 막은 길)"
 }
