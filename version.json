@@ -1,7 +1,7 @@
 {
-  "latest": "2.125.1",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.125.1/NaverBlogPoster_2.125.1.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.125.1/NaverBlogPoster_Setup_2.125.1.zip",
+  "latest": "2.126.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.126.0/NaverBlogPoster_2.126.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.126.0/NaverBlogPoster_Setup_2.126.0.zip",
   "force": false,
-  "notes": "- v2.125.1 - '## 결론 및 다음 단계' 같은 라벨 소제목"
+  "notes": "- v2.126.0 - 홈판 버튼 둘로 · 기본값을 홈판 성장용으로"
 }
