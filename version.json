@@ -1,7 +1,7 @@
 {
-  "latest": "2.123.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.123.0/NaverBlogPoster_2.123.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.123.0/NaverBlogPoster_Setup_2.123.0.zip",
+  "latest": "2.124.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.124.0/NaverBlogPoster_2.124.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.124.0/NaverBlogPoster_Setup_2.124.0.zip",
   "force": false,
-  "notes": "- v2.123.0 - 플레이스 찾을 말을 블로그 정보로 만든다 (업종 무관)"
+  "notes": "- v2.124.0 - 설정 점검 한 번에 · 플레이스가 값을 내는 길을 설명서에"
 }
