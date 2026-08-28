@@ -1,7 +1,7 @@
 {
-  "latest": "2.130.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.130.0/NaverBlogPoster_2.130.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.130.0/NaverBlogPoster_Setup_2.130.0.zip",
+  "latest": "2.131.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.131.0/NaverBlogPoster_2.131.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.131.0/NaverBlogPoster_Setup_2.131.0.zip",
   "force": false,
-  "notes": "- v2.130.0 - 뭐가 천만인지 모를 제목 · 지어낸 날짜"
+  "notes": "- v2.131.0 - 날짜를 찾아서 쓴다 · 정보성 제목 결 · 버튼이 곧 시작"
 }
