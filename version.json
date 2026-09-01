@@ -1,7 +1,7 @@
 {
-  "latest": "2.131.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.131.0/NaverBlogPoster_2.131.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.131.0/NaverBlogPoster_Setup_2.131.0.zip",
+  "latest": "2.132.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.132.0/NaverBlogPoster_2.132.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.132.0/NaverBlogPoster_Setup_2.132.0.zip",
   "force": false,
-  "notes": "- v2.131.0 - 날짜를 찾아서 쓴다 · 정보성 제목 결 · 버튼이 곧 시작"
+  "notes": "- v2.132.0 - 검토하며 찾은 것들 (본문 날짜·제목 두 번째 길·분량 충돌)"
 }
