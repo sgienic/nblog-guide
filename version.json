@@ -1,7 +1,7 @@
 {
-  "latest": "2.133.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.133.0/NaverBlogPoster_2.133.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.133.0/NaverBlogPoster_Setup_2.133.0.zip",
+  "latest": "2.134.0",
+  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.134.0/NaverBlogPoster_2.134.0.exe",
+  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.134.0/NaverBlogPoster_Setup_2.134.0.zip",
   "force": false,
-  "notes": "- v2.133.0 - 발행이 막혔을 때 왜 막혔는지 남긴다"
+  "notes": "- v2.134.0 - 로그인이 끊기기 전에 미리 알린다"
 }
