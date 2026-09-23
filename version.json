@@ -1,7 +1,7 @@
 {
-  "latest": "2.134.0",
-  "download": "https://github.com/sgienic/nblog-guide/releases/download/v2.134.0/NaverBlogPoster_2.134.0.exe",
-  "setup": "https://github.com/sgienic/nblog-guide/releases/download/v2.134.0/NaverBlogPoster_Setup_2.134.0.zip",
+  "latest": "2.138.0",
+  "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
+  "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- v2.134.0 - 로그인이 끊기기 전에 미리 알린다"
+  "notes": "- v2.138.0 - 새 판 알림을 서버로 옮김 · 클로드가 써 둔 글로 발행(관리자)"
 }
