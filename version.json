@@ -1,7 +1,7 @@
 {
-  "latest": "2.138.0",
+  "latest": "2.139.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- v2.138.0 - 새 판 알림을 서버로 옮김 · 클로드가 써 둔 글로 발행(관리자)"
+  "notes": "- v2.139.0 - 새 판을 두 곳에서 확인하고 높은 쪽을 씁니다"
 }
