@@ -1,7 +1,7 @@
 {
-  "latest": "2.139.0",
+  "latest": "2.140.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- v2.139.0 - 새 판을 두 곳에서 확인하고 높은 쪽을 씁니다"
+  "notes": "- v2.140.0 - 버튼으로 누른 글은 한도·글감 실패에도 끝까지 쓴다 · 대기글이 키워드를 지우던 것"
 }
