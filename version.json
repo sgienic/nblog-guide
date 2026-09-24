@@ -1,7 +1,7 @@
 {
-  "latest": "2.141.0",
+  "latest": "2.142.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- [홈판용] 칸 하나만 켜면 클로드가 주제 고르고 글까지 씀 (관리자)\n- 클로드 글이 제 주제로 올라감 · 그림 설명에 자리표시 말이 붙던 것 고침"
+  "notes": "- [클로드 글 바로 발행] 버튼 추가 · 관리자는 홈판용 칸이 기본으로 켜짐\n- 홈판용을 켜면 GPT 로 쓰지 않고 클로드 글을 기다림\n- GPT 그림이 안 되면 무료 사진으로 대신함"
 }
