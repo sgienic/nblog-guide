@@ -1,7 +1,7 @@
 {
-  "latest": "2.140.0",
+  "latest": "2.141.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- v2.140.0 - 버튼으로 누른 글은 한도·글감 실패에도 끝까지 쓴다 · 대기글이 키워드를 지우던 것"
+  "notes": "- [홈판용] 칸 하나만 켜면 클로드가 주제 고르고 글까지 씀 (관리자)\n- 클로드 글이 제 주제로 올라감 · 그림 설명에 자리표시 말이 붙던 것 고침"
 }
