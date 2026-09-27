@@ -1,7 +1,7 @@
 {
-  "latest": "2.142.0",
+  "latest": "2.143.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- [클로드 글 바로 발행] 버튼 추가 · 관리자는 홈판용 칸이 기본으로 켜짐\n- 홈판용을 켜면 GPT 로 쓰지 않고 클로드 글을 기다림\n- GPT 그림이 안 되면 무료 사진으로 대신함"
+  "notes": "- 홈판에 안 뜨던 원인 고침: 주제 없이 올라가던 글에 블로그에 맞는 주제를 붙임\n- 홈판 성장용은 블로그 하나에 하루 3편까지 (몰아 올리면 자동 대량 등록으로 봄)\n- 글감 출처에 '요즘 뜨는 생활·쇼핑 (데이터랩)' 추가\n- [홈판용] 칸을 켜면 바로 발행"
 }
