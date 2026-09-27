@@ -1,7 +1,7 @@
 {
-  "latest": "2.145.0",
+  "latest": "2.146.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- 네이버 로그인이 풀려 있으면 켤 때 바로 알림 (창 + 빨간 띠), 발행 중 풀리면 곧바로 멈추고 알림\n- 바로 발행 버튼에 번호(①~⑤)"
+  "notes": "- 로그인이 확인되면 빨간 '로그인 필요' 띠를 바로 거둠 (글자 잘림도 고침)\n- 로그인 세션 만들기가 오래된 쿠키에 속지 않게: 정말 로그인됐는지 글쓰기 주소로 확인\n- [홈판용] 칸을 켜면 ①~⑤ 어느 버튼이든 클로드 글로 올림 (OpenAI 안 씀)"
 }
