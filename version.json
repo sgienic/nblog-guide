@@ -1,7 +1,7 @@
 {
-  "latest": "2.146.0",
+  "latest": "2.147.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- 로그인이 확인되면 빨간 '로그인 필요' 띠를 바로 거둠 (글자 잘림도 고침)\n- 로그인 세션 만들기가 오래된 쿠키에 속지 않게: 정말 로그인됐는지 글쓰기 주소로 확인\n- [홈판용] 칸을 켜면 ①~⑤ 어느 버튼이든 클로드 글로 올림 (OpenAI 안 씀)"
+  "notes": "- 아이디 보호조치 줄이기: 한 컴퓨터의 여러 계정이 한 번에 하나씩, 앞 계정이 끝나면 4~9분 쉬었다 다음 계정 (기본으로 켬)\n- 같은 계정이 지난번과 다른 IP 로 나가면 알림"
 }
