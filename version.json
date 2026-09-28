@@ -1,7 +1,7 @@
 {
-  "latest": "2.148.0",
+  "latest": "2.149.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- 클로드 글: 대표 이미지와 본문 첫 사진이 같은 장면으로 두 번 나오던 것 고침\n- 발행 기록(시트·서버)에 클로드 글 제목이 '클로드 대기글' 로, 글자 수가 빈칸으로 남던 것 고침"
+  "notes": "- 펙셀스(무료 실사 사진) 지원: [처음 설정] 에 펙셀스 키 칸, 이미지 출처에 '펙셀스'\n- GPT 그림이 안 되면 펙셀스 사진을 먼저 씀 (글 끝에 '사진: 작가 / Pexels' 한 줄)"
 }
