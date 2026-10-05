@@ -1,7 +1,7 @@
 {
-  "latest": "2.149.0",
+  "latest": "2.150.0",
   "download": "https://drive.google.com/file/d/1TRhOYes-NlqKVjniSdNOBXMSEXM7RJq4/view",
   "setup": "https://drive.google.com/file/d/1QEDc5wS95rT9BJcB37rQgUOd5KO5Ci3j/view",
   "force": false,
-  "notes": "- 펙셀스(무료 실사 사진) 지원: [처음 설정] 에 펙셀스 키 칸, 이미지 출처에 '펙셀스'\n- GPT 그림이 안 되면 펙셀스 사진을 먼저 씀 (글 끝에 '사진: 작가 / Pexels' 한 줄)"
+  "notes": "- 클로드 대기글이 2시간 넘게 비면 화면에 노란 띠로 알림 (글쓰기 서버가 멈춘 것)"
 }
